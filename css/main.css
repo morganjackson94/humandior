@@ -1,0 +1,18 @@
+body {
+	background-color: #000;
+	font-family: 'Inconsolata', serif;
+	color: #fff;
+}
+
+.header, .main-content, .footer-section {
+	text-align: center;
+	padding: 25px;
+}
+
+.hd {
+	display: none;
+}
+
+.cr {
+	font-size: 1em;
+}
