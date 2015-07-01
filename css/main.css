@@ -1,7 +1,28 @@
+/** {
+	outline: #fff 1px solid;
+}*/
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	/*color: #000;*/
+}
+
 body {
 	background-color: #000;
 	font-family: 'Inconsolata', serif;
 	color: #fff;
+	/*position: absolute;*/
+	height: 100%;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Helvetica', serif;
+	font-weight: bold;
 }
 
 .header, .main-content, .footer-section {
@@ -10,9 +31,78 @@ body {
 }
 
 .hd {
-	display: none
+	display: none;
 }
 
 .cr {
 	font-size: 1em;
+}
+
+.main-content {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+.video-container {
+	height: 100vh;
+}
+
+
+.shop-container,
+.blog-container,
+.collection-container {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.shop-container {
+	background: url('../assets/4.jpg') no-repeat center;
+	background-position: 0px -200px;
+	background-size: cover;
+}
+
+.blog-container {
+	background: url('../assets/1.jpg') no-repeat center;
+	background-position: 0px -150px;
+	background-size: cover;
+
+}
+
+.collection-container {
+	background: url('../assets/5.jpg') no-repeat center;
+	background-position: 0px -400px;
+	background-size: cover;
+}
+
+.shop-container:hover {
+	background: url('../assets/4-i.jpg') no-repeat center;
+	background-position: 0px -200px;
+	background-size: cover;
+}
+
+.blog-container:hover {
+	background: url('../assets/1-i.jpg');
+	background-position: 0px -150px;
+	background-size: cover;
+}
+
+.collection-container:hover {
+	background: url('../assets/5-i.jpg');
+	background-position: 0px -400px;
+	background-size: cover;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+
+.contact,
+.terms {
+	float: left;
+	padding-right: 15px;
 }
