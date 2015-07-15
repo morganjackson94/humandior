@@ -1,0 +1,99 @@
+/** {
+	outline: #fff 1px solid;
+}*/
+
+@media only screen and (max-width:639px) {
+	.large-4 columns {
+		padding-left: 0rem !important;
+		padding-right: 0rem !important;
+	}
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+
+body {
+	background-color: #000;
+	font-family: 'Inconsolata', serif;
+	font-size: 1.1rem;
+}
+
+
+.header,
+.video-container,
+.main-navigation,
+.footer {
+	padding: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+
+.video iframe, 
+.video object, 
+.video embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+}
+
+#logo {
+	padding-top: 70px;
+}
+
+.main-navigation a {
+	color: red!important;
+}
+
+.large-4 columns {
+	padding left: 0.9375rem;
+	padding right: 0.9375rem;
+}
+
+.shop {
+	padding: 150px;
+	background: url('http://res.cloudinary.com/duceyomw7/image/upload/v1435722415/4_tlcf12.jpg') no-repeat center;
+	background-size: cover;
+	border: 1px dashed #000;
+}
+
+.blog {
+	padding: 150px;
+	background: url('http://res.cloudinary.com/duceyomw7/image/upload/v1435722414/1_qxcgrf.jpg') no-repeat center;
+	background-size: cover;
+	border: 1px dashed #000;
+
+
+.footer {
+	margin: 0 auto;
+	bottom: 0;
+}
+
+
+#ct,
+#tr {
+	float: left;
+	margin: 10px 15px;
+}
+
